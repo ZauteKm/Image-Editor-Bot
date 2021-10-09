@@ -32,28 +32,24 @@
 
 ## Installation
 
-<details><summary><b>Deploy to Heroku</b></summary>
+<details><summary>Deploy to Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/ZauteKm/Image-Upload-Bot">
+<a href="https://heroku.com/deploy?template=https://github.com/ZauteKm/Image-Editor-Bot/tree/master">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
+</a>
 </p>
-
 </details>
 
-<details>
-  <summary><b>Deploy in your VPS</b></summary>
+<details><summary>Deploy to VPS</summary>
 <p>
-<br/>
-
-```sh
+<pre>
 git clone https://github.com/ZauteKm/Image-Editor-Bot
 cd Image-Editor-Bot
 pip3 install -r requirements.txt
-# <Create Variables appropriately>
+# <Create config.py appropriately>
 python3 bot.py
-```
-
+</pre>
 </p>
 </details>
 
