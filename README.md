@@ -43,6 +43,7 @@
 
 <details>
   <summary><b>Deploy in your VPS</b></summary>
+<p>
 <br/>
 
 ```sh
@@ -52,6 +53,8 @@ pip3 install -r requirements.txt
 # <Create Variables appropriately>
 python3 bot.py
 ```
+
+</p>
 </details>
 
 ---
