@@ -1,0 +1,62 @@
+{
+    "name": "Image-Editor-Bot",
+    "description": "A Bot that can Edit Images in various modes",
+    "logo": "https://telegra.ph/file/3a35461ac1217c04a9dcc.jpg",
+    "keywords": [
+        "Image",
+        "Editor",
+        "Telegram Bot",
+        "TroJanzHEX"
+    ],
+    "website": "https://github.com/zautekm",
+    "repository": "https://github.com/ZauteKm/Image-Editor-Bot",
+    "success_url": "https://t.me/tg_imageeditbot",
+    "env": {
+        "TG_BOT_TOKEN": {
+            "description": "You Telegram Bot Token from @BotFather",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API Hash from my.telegram.org",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "Your APP ID from my.telegram.org",
+            "value": ""
+        },
+        "AUTH_USERS": {
+            "description": "allow only pre-defined users to use this bot",
+            "value": "1684438752"
+        },
+        "TIME_LIMIT": {
+            "description": "Set timeout for subprocess (In seconds)",
+            "value": "000"
+        },
+        "UPDATE_CHANNEL": {
+            "description": "For Force Subscribe. Paste your Update channel USERNAME (without @)..",
+            "value": "",
+            "required": false
+        },
+        "REMOVEBG_API": {
+            "description": "Get this api from https://www.remove.bg/b/background-removal-api",
+            "value": "",
+            "required": false
+        },
+        "WEBHOOK": {
+            "description": "Set this Value to 'ANYTHING'. Don't Change it",
+            "value": "ANYTHING"
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
