@@ -10,7 +10,7 @@
     ],
     "website": "https://github.com/zautekm",
     "repository": "https://github.com/ZauteKm/Image-Editor-Bot",
-    "success_url": "https://t.me/tg_imageeditbot",
+    "success_url": "https://t.me/BetterImageEditBot",
     "env": {
         "TG_BOT_TOKEN": {
             "description": "You Telegram Bot Token from @BotFather",
