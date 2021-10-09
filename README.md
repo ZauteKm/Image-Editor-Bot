@@ -52,7 +52,6 @@ pip3 install -r requirements.txt
 # <Create Variables appropriately>
 python3 bot.py
 ```
-
 </details>
 
 ---
