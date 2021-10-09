@@ -42,7 +42,6 @@
 </details>
 
 <details><summary>Deploy to VPS</summary>
-<p>
 ```sh
 git clone https://github.com/ZauteKm/Image-Editor-Bot
 cd Image-Editor-Bot
@@ -51,7 +50,6 @@ pip3 install -r requirements.txt
 python3 bot.py
 ```
 
-</p>
 </details>
 
 ---
