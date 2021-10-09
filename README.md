@@ -44,14 +44,21 @@
 <details><summary>Deploy to VPS</summary>
 <p>
 <pre>
+```sh
 git clone https://github.com/ZauteKm/Image-Editor-Bot
 cd Image-Editor-Bot
 pip3 install -r requirements.txt
 # <Create config.py appropriately>
 python3 bot.py
+```
 </pre>
 </p>
 </details>
 
 ---
 
+## Credits
+
+[![Zaute](https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)](https://stackoverflow.com/)
+
+[![Zaute](https://img.shields.io/badge/Pyrogram%20-%23F37626.svg?&style=for-the-badge&logo=telegram&logoColor=white)](https://github.com/pyrogram/pyrogram)
