@@ -41,12 +41,15 @@
 </p>
 </details>
 
-<details><summary>Deploy to VPS</summary>
+<details>
+  <summary><b>Deploy in your VPS</b></summary>
+<br/>
+
 ```sh
 git clone https://github.com/ZauteKm/Image-Editor-Bot
 cd Image-Editor-Bot
 pip3 install -r requirements.txt
-# Create config.py appropriately
+# <Create Variables appropriately>
 python3 bot.py
 ```
 
